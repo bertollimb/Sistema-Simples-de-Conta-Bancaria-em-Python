@@ -1,8 +1,6 @@
 # Sistema Simples de Conta Bancaria em Python
 
-## Este projeto apresenta uma implementação simples de uma **classe ContaBancaria em Python**, utilizando conceitos fundamentais de Programação Orientada a Objetos (POO), como:
-
----
+ Este projeto apresenta uma implementação simples de uma **classe ContaBancaria em Python**, utilizando conceitos fundamentais de Programação Orientada a Objetos (POO), como:
 
 - Encapsulamento
 
@@ -22,21 +20,21 @@ A classe ContaBancaria implementa:
 
 ✔️ Atributos privados
 
-    -`__titular` — nome do titular
+- `__titular` — nome do titular
 
-    - `__saldo` — saldo da conta
+- `__saldo` — saldo da conta
 
-    - `__limite` — limite máximo permitido para saque
+- `__limite` — limite máximo permitido para saque
 
 ✔️ Métodos disponíveis
 
-    - depositar(valor): adiciona saldo à conta
+- `depositar(valor)` — adiciona saldo à conta
 
-    - sacar(valor): realiza saque respeitando o saldo e o limite
+- `sacar(valor)` — realiza saque respeitando o saldo e o limite
 
-    - mostrar_info(): exibe o titular e o saldo atual
+- `mostrar_info()` — exibe o titular e o saldo atual
 
-    - Propriedade saldo: permite ler e modificar o saldo apenas de forma controlada
+- `Propriedade saldo` — permite ler e modificar o saldo apenas de forma controlada
 
 ---
 
